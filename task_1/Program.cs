@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите 2 целых числа: ");
+﻿// Программа, которая на вход принимет 2 числа и выдает максимальное из этих чисел.
+Console.WriteLine("Введите 2 целых числа: ");
 int number_1 = Convert.ToInt32(Console.ReadLine());
 int number_2 = Convert.ToInt32(Console.ReadLine());
 
