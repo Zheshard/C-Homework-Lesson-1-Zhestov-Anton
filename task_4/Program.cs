@@ -2,10 +2,24 @@
 Console.WriteLine("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int index = 2;
-
-while (index <= number)
+if (number < 1)
 {
-	Console.WriteLine(index);
-	index += 2;
+	int index = 0;
+
+	while (index >= number)
+	{
+		Console.WriteLine(index);
+		index -= 2;
+	}
 }
+else
+{
+	int index = 2;
+
+	while (index <= number)
+	{
+		Console.WriteLine(index);
+		index += 2;
+	}
+}
+
